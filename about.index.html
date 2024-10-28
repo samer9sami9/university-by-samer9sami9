@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+           <!-- fav icon -->
+           <link rel="icon" type="image/jpg" href="images/favicon.png">
+
+
+
+
+    <title>university web site</title>
+    </head>
+<body>
+   <section class="about-header">
+   <nav >  
+        <a href="#">
+                <img src="images/logo2.png" >
+            </a>
+
+        <div class="navlinks" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        HOME
+                    </a>
+                </li>
+                <li>
+                    <a href="about.index.html">
+                       ABOUT
+                    </a>
+                </li>
+                <li>
+                    <a href="course.index.html">
+                       COURSE
+                    </a>
+                </li>
+                <li>
+                    <a href="blog.index.html">
+                       BLOG
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.index.html">
+                        CONTACT
+                    </a>
+                </li>
+            </ul>
+                
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+  <h1>about us</h1> 
+   </section>
+   <SECTION class="about-section">
+    <div class="row">
+
+        <div class="about-col">
+            <h1>Dear Students, Parents, and Visitors.</h1>
+            <p>Welcome to the Arab Open University (AOU) - Egypt. Arab Open University is a non-profitable higher education institution that aims at giving equal chances to all people who seek high quality education. Its full affiliation to the Open University in UK opens for all students high-standard horizons of learning as they study the same curricula taught in the UK. The AOU, accordingly, is the only university in Egypt that grants its students an exclusive British certificate, and at highly competitive installed tuition fees. This qualifies its graduates to work worldwide. Since its inception in 2002, AOU’s mission has been to develop and disseminate knowledge, and build expertise according to international quality standards without time or geographical barriers for the sake of contributing and preparing manpower for development needs, and to build science and knowledge society in The Arab countries. AOU- Egypt stands true to this mission and is thriving, thanks to the contributions of our distinguished faculties, our dedicated staff, and our diverse and ambitious student body. One of the main points of strengths in the branch is the postgraduate studies offered in the faculties of Language Studies, Computer Science and Business Administration. The MA [MA in English Literature & MA in TEFL], MSc [Cyber Security and Forensics], and MBA [Masters in Business Administration] are offered in the Open University in the UK as well. The reports of external examiners reflect the distinction of the postgraduate programs as they consider them as even better than some HEI (Higher Education Institutions) in England as per their description in their reports. Some of the MA holders already work in British universities after being granted the exclusive British certificate. They also participate in international conferences and have internationally published papers/books. They distinctively pursue their academic careers (PhD) in state universities in Egypt.</p>
+            <a href="">explore now</a>
+        </div>
+
+        <div class="about-col">
+            <img src="images/about.jpg" alt="">
+        </div>
+    </div>
+   </SECTION>
+
+   <!-- footer -->
+    <section class="footer">
+        <h1 class="title">
+           about us
+        </h1>
+        <p class="subject">
+           this is the end of this page , i hope you enjoy  this website.
+        </p>
+        <div class="icons">
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""></a><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+       <h5> made with <i class="fa-regular fa-heart"></i> by Samer9sami9@gmail.com</h5>
+    </section>
+
+
+   <!-- JAVA for toggle  -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
